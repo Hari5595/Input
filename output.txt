@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document version="2.0">
+   <FileHeader>
+      <Information>
+         <SystemName>OVS</SystemName>
+         <Product>LOAN</Product>
+         <DateCreated>20191230</DateCreated>
+         <DateTime>141307</DateTime>
+         <UserCreated>N307669</UserCreated>
+         <UserApproved>N300934</UserApproved>
+         <ReportID>QLA3931O</ReportID>
+         <UniqueID>00061392019123000028798</UniqueID>
+         <ReportName>FACILITY AMENDMENT</ReportName>
+         <AreaGroupCount>1</AreaGroupCount>
+         <DocFormat>XML</DocFormat>
+         <PageCount />
+      </Information>
+   </FileHeader>
+   <AREAGRP>
+      <CustomerHeader>
+         <ContactDetails>
+            <ContactID>001</ContactID>
+            <CustomerName>BNP PARIBAS</CustomerName>
+            <Attention />
+            <CustomerID>30050568</CustomerID>
+            <Email>,,,,,,,,,,,,,,,,,,,,,,,,</Email>
+            <PrimaryFaxCountryCode />
+            <PrimaryFax />
+            <SecondaryFaxCountryCode />
+            <SecondaryFax />
+            <CopyFax1CountryCode />
+            <CopyFax1 />
+            <CopyFax2CountryCode />
+            <CopyFax2 />
+            <ContactAddress1>787 SEVENTH AVENUE</ContactAddress1>
+            <ContactAddress2>THE EQUITABLE TOWER</ContactAddress2>
+            <ContactAddress3 />
+            <ContactAddress4 />
+            <City>NEW YORK</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+            <Country>UNITED STATES</Country>
+            <BookingBranchNumber>0003110</BookingBranchNumber>
+            <OperationBranchNumber>0006139</OperationBranchNumber>
+            <BookingCostCenterCode>038000</BookingCostCenterCode>
+            <ResponsibleCostCenterCode>002400</ResponsibleCostCenterCode>
+         </ContactDetails>
+      </CustomerHeader>
+      <SearchKey>
+         <SearchFields>
+            <CustomerName>BNP PARIBAS</CustomerName>
+            <CustomerNumber>30050568</CustomerNumber>
+            <BranchCode>0003110</BranchCode>
+            <TransactionNumber />
+            <CurrentOustandingAmount />
+            <TransactionType>FACILITY AMENDMENT</TransactionType>
+            <TransactionEffectiveDate>20191230</TransactionEffectiveDate>
+            <FacilityNumber>000684470023009</FacilityNumber>
+         </SearchFields>
+      </SearchKey>
+      <Body>
+         <FILE NAME="Data Design">
+            <REC NAME="IRISCONTACT">
+               <FLD NAME="AttentionName" />
+               <FLD NAME="CustomerName">BNP PARIBAS</FLD>
+               <FLD NAME="Address1">787 SEVENTH AVENUE</FLD>
+               <FLD NAME="Address2">THE EQUITABLE TOWER</FLD>
+               <FLD NAME="Address3" />
+               <FLD NAME="Address4" />
+               <FLD NAME="City">NEW YORK</FLD>
+               <FLD NAME="State">NY</FLD>
+               <FLD NAME="Zip">10019</FLD>
+               <FLD NAME="Country">UNITED STATES</FLD>
+               <FLD NAME="Emails">,,,,,,,,,,,,,,,,,,,,,,,,</FLD>
+               <FLD NAME="Faxes" />
+            </REC>
+            <REC NAME="PRTCNTT">
+               <FLD NAME="RPTID">QLA3931O</FLD>
+               <FLD NAME="RPTNM">FACILITY AMENDMENT</FLD>
+               <FLD NAME="BRNCHCD">0003110</FLD>
+            </REC>
+            <REC NAME="NOTICE">
+               <FLD NAME="INVSTRCTCT" />
+               <FLD NAME="INVSTRNM">BNP PARIBAS</FLD>
+               <FLD NAME="INVSTRCTCTFAXNB" />
+               <FLD NAME="INVSTRCTCTEMAILADR" />
+               <FLD NAME="NTCEDT">20191230</FLD>
+               <FLD NAME="FCLTYCCYCD">USD</FLD>
+               <FLD NAME="FCLTYAMT">118000000.00</FLD>
+               <FLD NAME="CSTMRNM">CASTLETON COMMODITIES MERCHANT     TRADING L.P.</FLD>
+               <FLD NAME="FCLTYTXTDESC">3YR COM RCF SBLC FRONTING TR-C</FLD>
+               <FLD NAME="PRCUSRPHNENB" />
+               <FLD NAME="PRCUSRNM">YESICA VELOZ</FLD>
+               <FLD NAME="SVCGUSRNM">SCOTT WILLIAMS</FLD>
+               <FLD NAME="SVCGUSRPHNENB">+1 (201) 413-8534</FLD>
+               <FLD NAME="FREEFORMCMNTS" />
+               <FLD NAME="FCTVDT">20191230</FLD>
+               <FLD NAME="CCYCDFORCURGBLSHR">USD</FLD>
+               <FLD NAME="CURGBLSHRAMT">109000000.00</FLD>
+               <FLD NAME="CCYCDFORNEWGBLSHR">USD</FLD>
+               <FLD NAME="NEWGBLSHRAMT">118000000.00</FLD>
+               <FLD NAME="CCYCDFORCURYOURSHR">USD</FLD>
+               <FLD NAME="CURYOURSHRAMT">109000000.00</FLD>
+               <FLD NAME="CCYCDFORNEWYOURSHR">USD</FLD>
+               <FLD NAME="NEWYOURSHRAMT">118000000.00</FLD>
+               <FLD NAME="CURFEEYRBSIS" />
+               <FLD NAME="NEWFEEYRBSIS" />
+               <FLD NAME="CURFEERATE" />
+               <FLD NAME="NEWFEERATE" />
+               <FLD NAME="APPLCD">LOAN</FLD>
+               <FLD NAME="FCLTYAMTCHG">YES</FLD>
+               <FLD NAME="CMTMTFEERATE" />
+               <FLD NAME="CMTMTFEECALMETD" />
+            </REC>
+         </FILE>
+      </Body>
+   </AREAGRP>
+</Document>

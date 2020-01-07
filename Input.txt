@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FILE [
+  <!ELEMENT FILE (REC*)>
+  <!ATTLIST FILE NAME CDATA #REQUIRED>
+  <!ELEMENT REC (FLD*)>
+  <!ATTLIST REC NAME CDATA #REQUIRED>
+  <!ELEMENT FLD (#PCDATA)>
+  <!ATTLIST FLD NAME CDATA #REQUIRED>
+]>
+<Document version="2.0">
+   <AREA NAME="FILEHDR">
+      <REC NAME="FILEINF">
+         <FLD NAME="SYSNM">OVS</FLD>
+         <FLD NAME="PDCT">LOAN</FLD>
+         <FLD NAME="CREDT">20191230</FLD>
+         <FLD NAME="CRETM">141307</FLD>
+         <FLD NAME="CREUSRID">N307669</FLD>
+         <FLD NAME="APPDUSRID">N300934</FLD>
+         <FLD NAME="RPTID">QLA3931O</FLD>
+         <FLD NAME="UNQREF">00061392019123000028798</FLD>
+         <FLD NAME="RPTNM">FACILITY AMENDMENT</FLD>
+         <FLD NAME="AREAGRPCNT">000001</FLD>
+      </REC>
+   </AREA>
+   <AREAGRP>
+      <AREA NAME="CSTMRHDR">
+         <REC NAME="CTCTDTLS">
+            <FLD NAME="CTCTID">001</FLD>
+            <FLD NAME="CSTMRNM">BNP PARIBAS</FLD>
+            <FLD NAME="ATTN" />
+            <FLD NAME="CSTMRID">30050568</FLD>
+            <FLD NAME="EMAILADR">,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,                                                  ,</FLD>
+            <FLD NAME="PMRYFAXNBCTRYCD" />
+            <FLD NAME="PMRYFAXNB" />
+            <FLD NAME="SCNDRYFAXNBCTRYCD" />
+            <FLD NAME="SCNDRYFAXNB" />
+            <FLD NAME="CPYFAXNB1CTRYCD" />
+            <FLD NAME="CPYFAXNB1" />
+            <FLD NAME="CPYFAXNB2CTRYCD" />
+            <FLD NAME="CPYFAXNB2" />
+            <FLD NAME="PSTLADR1">787 SEVENTH AVENUE</FLD>
+            <FLD NAME="PSTLADR2">THE EQUITABLE TOWER</FLD>
+            <FLD NAME="PSTLADR3" />
+            <FLD NAME="PSTLADR4" />
+            <FLD NAME="CITYNM">NEW YORK</FLD>
+            <FLD NAME="STATNM">NY</FLD>
+            <FLD NAME="PSTLCDDGTS">10019</FLD>
+            <FLD NAME="CTRYNM">UNITED STATES</FLD>
+            <FLD NAME="BOOKGBRNCHNB">0003110</FLD>
+            <FLD NAME="OPRBRNCHNB">0006139</FLD>
+            <FLD NAME="BOOKGCOSTCENTCD">038000</FLD>
+            <FLD NAME="RSPNSBICOSTCENTCD">002400</FLD>
+         </REC>
+      </AREA>
+      <AREA NAME="SCHKEY">
+         <REC NAME="SEARCHFLD">
+            <FLD NAME="CSTMRNM">BNP PARIBAS</FLD>
+            <FLD NAME="CSTMRNO">30050568</FLD>
+            <FLD NAME="BRNCHCD">0003110</FLD>
+            <FLD NAME="TXNO" />
+            <FLD NAME="CUROUTSDNGAMT" />
+            <FLD NAME="TXTP">FACILITY AMENDMENT</FLD>
+            <FLD NAME="TXFCTVDT">20191230</FLD>
+            <FLD NAME="FCLTYNB">000684470023009</FLD>
+         </REC>
+      </AREA>
+      <AREA NAME="RPT">
+         <REC NAME="PRTCNTT">
+            <FLD NAME="RPTID">QLA3931O</FLD>
+            <FLD NAME="RPTNM">FACILITY AMENDMENT</FLD>
+            <FLD NAME="BRNCHCD">0003110</FLD>
+         </REC>
+         <REC NAME="NOTICE">
+            <FLD NAME="INVSTRCTCT" />
+            <FLD NAME="INVSTRNM">BNP PARIBAS</FLD>
+            <FLD NAME="INVSTRCTCTFAXNB" />
+            <FLD NAME="INVSTRCTCTEMAILADR" />
+            <FLD NAME="NTCEDT">20191230</FLD>
+            <FLD NAME="FCLTYCCYCD">USD</FLD>
+            <FLD NAME="FCLTYAMT">118000000.00</FLD>
+            <FLD NAME="CSTMRNM">CASTLETON COMMODITIES MERCHANT     TRADING L.P.</FLD>
+            <FLD NAME="FCLTYTXTDESC">3YR COM RCF SBLC FRONTING TR-C</FLD>
+            <FLD NAME="PRCUSRPHNENB" />
+            <FLD NAME="PRCUSRNM">YESICA VELOZ</FLD>
+            <FLD NAME="SVCGUSRNM">SCOTT WILLIAMS</FLD>
+            <FLD NAME="SVCGUSRPHNENB">+1 (201) 413-8534</FLD>
+            <FLD NAME="FREEFORMCMNTS" />
+            <FLD NAME="FCTVDT">20191230</FLD>
+            <FLD NAME="CCYCDFORCURGBLSHR">USD</FLD>
+            <FLD NAME="CURGBLSHRAMT">109000000.00</FLD>
+            <FLD NAME="CCYCDFORNEWGBLSHR">USD</FLD>
+            <FLD NAME="NEWGBLSHRAMT">118000000.00</FLD>
+            <FLD NAME="CCYCDFORCURYOURSHR">USD</FLD>
+            <FLD NAME="CURYOURSHRAMT">109000000.00</FLD>
+            <FLD NAME="CCYCDFORNEWYOURSHR">USD</FLD>
+            <FLD NAME="NEWYOURSHRAMT">118000000.00</FLD>
+            <FLD NAME="CURFEEYRBSIS" />
+            <FLD NAME="NEWFEEYRBSIS" />
+            <FLD NAME="CURFEERATE" />
+            <FLD NAME="NEWFEERATE" />
+            <FLD NAME="APPLCD">LOAN</FLD>
+            <FLD NAME="FCLTYAMTCHG">YES</FLD>
+            <FLD NAME="CMTMTFEERATE" />
+            <FLD NAME="CMTMTFEECALMETD" />
+         </REC>
+      </AREA>
+   </AREAGRP>
+</Document>
